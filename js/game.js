@@ -222,7 +222,7 @@ game.prototype = {
                            if(that.currentscore%that.step==0){
                                that.step=that.currentscore*2;
                                that.currentscore=0;
-                               that.speed+=1;
+                               that.speed+=10;
 
                            }
 
